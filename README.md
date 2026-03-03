@@ -1,4 +1,4 @@
-# Course Registration System (Kayzek)
+# Course Registration System
 
 Professional Academic-like Java Backend system for course management, built with **Spring Boot 3.4** and strictly following **Clean Architecture (CA)** principles.
 
