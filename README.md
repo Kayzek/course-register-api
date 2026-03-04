@@ -12,7 +12,7 @@ Professional Academic-like Java Backend system for course management, built with
 
 ---
 
-## 🏗️ Architecture Overview
+## Architecture Overview
 
 The project is structured according to the **Hexagonal/Clean Architecture** pattern to separate business logic from technical details:
 
@@ -63,13 +63,13 @@ graph TD;
 ### Interactive API Documentation
 
 Once the app is running, access the **Swagger UI** to test the endpoints:
-👉 [**http://localhost:8080/swagger-ui.html**](http://localhost:8080/swagger-ui.html)
+[**http://localhost:8080/swagger-ui.html**](http://localhost:8080/swagger-ui.html)
 
 ---
 
-## 📡 API Endpoints Summary
+## API Endpoints Summary
 
-### 🎓 Courses & Students
+### Courses & Students
 | Action | Method | URL |
 | :--- | :--- | :--- |
 | Create Course | `POST` | `/api/courses` |
@@ -77,7 +77,7 @@ Once the app is running, access the **Swagger UI** to test the endpoints:
 | Register Student | `POST` | `/api/students` |
 | Students in Course | `GET` | `/api/courses/{code}/students` |
 
-### 📂 Administration (Management)
+### Administration (Management)
 | Action | Method | URL |
 | :--- | :--- | :--- |
 | Create Teacher | `POST` | `/api/management/teachers` |
@@ -87,7 +87,7 @@ Once the app is running, access the **Swagger UI** to test the endpoints:
 
 ---
 
-## 💾 Database
+## Database
 
 The project uses an **H2 In-Memory Database** for development. You can access the console at:
 [**http://localhost:8080/h2-console**](http://localhost:8080/h2-console)
